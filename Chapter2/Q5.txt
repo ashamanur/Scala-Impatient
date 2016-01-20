@@ -1,0 +1,6 @@
+//Write a procedure countdown(n: Int) that prints the numbers from n to 0.
+
+scala> def countDown(n: Int) {
+     | for(i <- n to 0 by -1) println(i)
+     | }
+countDown: (n: Int)Unit

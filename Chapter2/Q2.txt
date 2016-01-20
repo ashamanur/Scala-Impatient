@@ -1,0 +1,8 @@
+//What is the value of an empty block expression {}? What is its type?
+
+Value is () 
+Type is Unit
+
+Try:
+scala> val x = {}
+x: Unit = ()

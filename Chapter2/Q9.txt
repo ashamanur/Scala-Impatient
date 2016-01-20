@@ -1,0 +1,7 @@
+//Make the function of the preceding exercise a recursive function.
+
+scala> def productRec(str: String) : Int = {
+     | if(str.tail != "") str.head.toInt * productRec(str.tail) else
+     | str.head.toInt
+     | }
+productRec: (str: String)Int
